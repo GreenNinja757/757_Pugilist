@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="6" build="5"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+              
+         <!-- Base Class Progressions-->
+              <node id="Progression"> <!--Pugilist Non MutliclassLevel 1-->
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(757_Moxie,3,0);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Constitution);Proficiency(SimpleWeapons);Proficiency(LightArmor);Proficiency(Flails);Proficiency(Morningstars);Proficiency(Tridents);Proficiency(Warhammers)"/> 
+                    <attribute id="Level" type="uint8" value="1"/> 
+                    <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                    <attribute id="PassivesAdded" type="LSString" value="757_IronChin;757_Fisticuffs_UnarmedDamage;757_Fisticuffs_BonusUnarmedStrike"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>  <!-- 0 means main class, 1 means subclass, 2 is race-->
+                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectSkills(1b838063-9027-4c49-a7f4-aada31bbb613,2);AddSpells(3993b964-9c29-4905-98d4-d7e8ced19c8e)"/>  
+                    <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/> <!-- Same UUID as the one in ClassDescriptions.lsx this refers to the entire table-->
+                    <attribute id="UUID" type="guid" value="41c5ac54-bd32-4f5b-9feb-c30afb255857"/> <!-- a Unique UUID specificaly for this entry within the table -->
+                </node>
+              
+				      <node id="Progression"> <!--Pugilist Multiclass Level 1-->
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(757_Moxie,3,0);Proficiency(SimpleWeapons);Proficiency(LightArmor);Proficiency(Flails);Proficiency(Morningstars);Proficiency(Tridents);Proficiency(Warhammers)"/>
+                    <attribute id="IsMulticlass" type="bool" value="true"/>
+					          <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                    <attribute id="PassivesAdded" type="LSString" value="757_IronChin;757_Fisticuffs_UnarmedDamage;757_Fisticuffs_BonusUnarmedStrike"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(3993b964-9c29-4905-98d4-d7e8ced19c8e)"/>
+					          <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                    <attribute id="UUID" type="guid" value="b6cb5a77-dcda-4567-8367-1f3ce5635d12"/> 
+                </node>
+              
+              <node id="Progression">
+                <!--Level 2 -->
+                <attribute id="Boosts" type="LSString" value="ProficiencyBonus(Skill,Medicine)"/>
+                <attribute id="Level" type="uint8" value="2"/>
+                <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                <attribute id="PassivesAdded" type="LSString" value=""/>
+                <attribute id="PassivesRemoved" type="LSString" value=""/>
+                <attribute id="ProgressionType" type="uint8" value="0"/>
+                <attribute id="Selectors" type="LSString" value=""/>
+                <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                <attribute id="UUID" type="guid" value="458f4d1a-ad14-4e3b-b747-dacb0ab6e827"/>
+              </node>
+              
+              <node id="Progression">
+                <!--Level 3 -->
+                <attribute id="Boosts" type="LSString" value="ActionResource(757_Moxie,1,0);ActionResource(757_BloodiedButUnbowedCharge,1,0)"/>
+                <attribute id="Level" type="uint8" value="3"/>
+                <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                <attribute id="PassivesAdded" type="LSString" value="757_BloodiedButUnbowed"/>
+                <attribute id="PassivesRemoved" type="LSString" value=""/>
+                <attribute id="ProgressionType" type="uint8" value="0"/>
+                <attribute id="Selectors" type="LSString" value=""/>
+                <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                <attribute id="UUID" type="guid" value="57c4bc43-f717-4e25-82ec-ea0d4964cdf8"/>
+                <children>
+                  <node id="SubClasses">
+                    <children>
+                      <node id="SubClass">
+                        <!--Arena Royale-->
+                        <attribute id="Object" type="guid" value="582438a4-358f-462b-870b-c2d49a268876"/>
+                      </node>
+                      <node id="SubClass">
+                        <!--Bloodhound Bruisers-->
+                        <attribute id="Object" type="guid" value="3332e6ea-1973-49e3-9195-cda7a09dff4c"/>
+                      </node>
+                      <node id="SubClass">
+                        <!--Piss and Vinegar-->
+                        <attribute id="Object" type="guid" value="0d065690-58a2-42d0-865a-576fa38be46a"/>
+                      </node>
+                      <node id="SubClass">
+                        <!--The Squared Circle-->
+                        <attribute id="Object" type="guid" value="8dba820a-de81-478f-9c91-f928b9d10375"/>
+                      </node>
+                      <node id="SubClass">
+                        <!--The Sweet Science-->
+                        <attribute id="Object" type="guid" value="303591e9-e645-449d-9309-4a57488bce3e"/>
+                      </node>
+                    </children>
+                  </node>
+                </children>
+              </node>
+              
+              <node id="Progression">
+                  <!--Level 4 -->
+                  <attribute id="AllowImprovement" type="bool" value="True"/>
+                  <attribute id="Boosts" type="LSString" value=""/>
+                  <attribute id="Level" type="uint8" value="4"/>
+                  <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                  <attribute id="PassivesAdded" type="LSString" value=""/>
+                  <attribute id="PassivesRemoved" type="LSString" value=""/>
+                  <attribute id="ProgressionType" type="uint8" value="0"/>
+                  <attribute id="Selectors" type="LSString" value="AddSpells(1d49e828-6fa6-442c-a55a-c4ae4cd99cd9)"/>
+                  <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                  <attribute id="UUID" type="guid" value="3c3648a9-37ae-4927-a8f1-33fb2f427bdc"/>
+                </node>
+              
+              <node id="Progression">
+                  <!--Level 5 -->
+                  <attribute id="Boosts" type="LSString" value="ActionResource(757_Moxie,1,0) "/>
+                  <attribute id="Level" type="uint8" value="5"/>
+                  <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                  <attribute id="PassivesAdded" type="LSString" value="ExtraAttack;757_Haymaker"/>
+                  <attribute id="PassivesRemoved" type="LSString" value=""/>
+                  <attribute id="ProgressionType" type="uint8" value="0"/>
+                  <attribute id="Selectors" type="LSString" value=""/>
+                  <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                  <attribute id="UUID" type="guid" value="6bb3d8ae-2133-451f-b125-08e8438d1594"/>
+                </node>
+              
+              <node id="Progression">
+                <!--Level 6 -->
+                <attribute id="Boosts" type="LSString" value=""/>
+                <attribute id="Level" type="uint8" value="6"/>
+                <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                <attribute id="PassivesAdded" type="LSString" value="757_MoxieFueledFists"/>
+                <attribute id="PassivesRemoved" type="LSString" value=""/>
+                <attribute id="ProgressionType" type="uint8" value="0"/>
+                <attribute id="Selectors" type="LSString" value=""/>
+                <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                <attribute id="UUID" type="guid" value="cbb73f05-edd0-4f57-b746-ddd54944e72e"/>
+              </node>
+              
+              <node id="Progression">
+                <!--Level 7 -->
+                <attribute id="Boosts" type="LSString" value="ActionResource(757_Moxie,1,0);ProficiencyBonus(SavingThrow,Dexterity) "/>
+                <attribute id="Level" type="uint8" value="7"/>
+                <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                <attribute id="PassivesAdded" type="LSString" value="757_ShakeItOff"/>
+                <attribute id="PassivesRemoved" type="LSString" value=""/>
+                <attribute id="ProgressionType" type="uint8" value="0"/>
+                <attribute id="Selectors" type="LSString" value=""/>
+                <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                <attribute id="UUID" type="guid" value="42b827a0-fd98-4cdc-b8a0-cc9c8eaf483a"/>
+              </node>
+              
+              <node id="Progression">
+                <!--Level 8 -->
+                <attribute id="AllowImprovement" type="bool" value="True"/>
+                <attribute id="Boosts" type="LSString" value=""/>
+                <attribute id="Level" type="uint8" value="8"/>
+                <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                <attribute id="PassivesAdded" type="LSString" value=""/>
+                <attribute id="PassivesRemoved" type="LSString" value=""/>
+                <attribute id="ProgressionType" type="uint8" value="0"/>
+                <attribute id="Selectors" type="LSString" value=""/>
+                <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                <attribute id="UUID" type="guid" value="fe1db6b8-31e3-46f7-b120-1dc30adb7de4"/>
+              </node>
+              
+              <node id="Progression">
+                <!--Level 9 -->
+                <attribute id="Boosts" type="LSString" value="ActionResource(757_Moxie,1,0);ActionResource(757_DownButNotOutCharge,1,0) "/>
+                <attribute id="Level" type="uint8" value="9"/>
+                <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                <attribute id="PassivesAdded" type="LSString" value="757_DownButNotOut"/>
+                <attribute id="PassivesRemoved" type="LSString" value=""/>
+                <attribute id="ProgressionType" type="uint8" value="0"/>
+                <attribute id="Selectors" type="LSString" value=""/>
+                <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                <attribute id="UUID" type="guid" value="a8884ba2-47d4-4aa0-a1f9-a5fda3a022bb"/>
+              </node>
+              
+              <node id="Progression">
+                <!--Level 10 -->
+                <attribute id="Boosts" type="LSString" value=""/>
+                <attribute id="Level" type="uint8" value="10"/>
+                <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                <attribute id="PassivesAdded" type="LSString" value="757_StreetSmartsResist;757_StreetSmartsImmune"/>
+                <attribute id="PassivesRemoved" type="LSString" value=""/>
+                <attribute id="ProgressionType" type="uint8" value="0"/>
+                <attribute id="Selectors" type="LSString" value=""/>
+                <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                <attribute id="UUID" type="guid" value="a396d57d-ea36-4936-9ac6-0ce871ba86d9"/>
+              </node>
+              
+              <node id="Progression">
+                <!--Level 11 -->
+                <attribute id="Boosts" type="LSString" value="ActionResource(757_Moxie,1,0) "/>
+                <attribute id="Level" type="uint8" value="11"/>
+                <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                <attribute id="PassivesAdded" type="LSString" value=""/>
+                <attribute id="PassivesRemoved" type="LSString" value=""/>
+                <attribute id="ProgressionType" type="uint8" value="0"/>
+                <attribute id="Selectors" type="LSString" value=""/>
+                <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                <attribute id="UUID" type="guid" value="508140f8-40e1-4117-a336-ef84ae49c38e"/>
+              </node>
+              
+              <node id="Progression">
+                <!--Level 12 -->
+                <attribute id="AllowImprovement" type="bool" value="True"/>
+                <attribute id="Boosts" type="LSString" value=""/>
+                <attribute id="Level" type="uint8" value="12"/>
+                <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                <attribute id="PassivesAdded" type="LSString" value=""/>
+                <attribute id="PassivesRemoved" type="LSString" value=""/>
+                <attribute id="ProgressionType" type="uint8" value="0"/>
+                <attribute id="Selectors" type="LSString" value=""/>
+                <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                <attribute id="UUID" type="guid" value="dc4ac5ee-cd1d-493b-bf13-5e96bc41be5c"/>
+              </node>
+
+              <!--Dummmy Levels for 13-20 These literally don't have anything in them, not even ASIs-->
+              <node id="Progression">
+                <!--Level 13 -->
+                <attribute id="Boosts" type="LSString" value=""/>
+                <attribute id="Level" type="uint8" value="13"/>
+                <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                <attribute id="PassivesAdded" type="LSString" value=""/>
+                <attribute id="PassivesRemoved" type="LSString" value=""/>
+                <attribute id="ProgressionType" type="uint8" value="0"/>
+                <attribute id="Selectors" type="LSString" value=""/>
+                <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                <attribute id="UUID" type="guid" value="a3858e3a-28d4-4eb0-ad2c-d05117adb6ec"/>
+              </node>
+              <node id="Progression">
+              <!--Level 14 -->
+              <attribute id="Boosts" type="LSString" value=""/>
+              <attribute id="Level" type="uint8" value="14"/>
+              <attribute id="Name" type="LSString" value="757_Pugilist"/>
+              <attribute id="PassivesAdded" type="LSString" value=""/>
+              <attribute id="PassivesRemoved" type="LSString" value=""/>
+              <attribute id="ProgressionType" type="uint8" value="0"/>
+              <attribute id="Selectors" type="LSString" value=""/>
+              <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+              <attribute id="UUID" type="guid" value="6f163e08-46a4-4270-b5f6-7a7b2f0e5531"/>
+            </node>
+              <node id="Progression">
+                <!--Level 15 -->
+                <attribute id="Boosts" type="LSString" value=""/>
+                <attribute id="Level" type="uint8" value="15"/>
+                <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                <attribute id="PassivesAdded" type="LSString" value=""/>
+                <attribute id="PassivesRemoved" type="LSString" value=""/>
+                <attribute id="ProgressionType" type="uint8" value="0"/>
+                <attribute id="Selectors" type="LSString" value=""/>
+                <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                <attribute id="UUID" type="guid" value="ea102898-bf8e-480d-8d9e-8291cc123c39"/>
+              </node>
+              <node id="Progression">
+                <!--Level 16 -->
+                <attribute id="Boosts" type="LSString" value=""/>
+                <attribute id="Level" type="uint8" value="16"/>
+                <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                <attribute id="PassivesAdded" type="LSString" value=""/>
+                <attribute id="PassivesRemoved" type="LSString" value=""/>
+                <attribute id="ProgressionType" type="uint8" value="0"/>
+                <attribute id="Selectors" type="LSString" value=""/>
+                <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                <attribute id="UUID" type="guid" value="c342c6cb-73b5-44aa-8720-caa378139003"/>
+              </node>
+              <node id="Progression">
+                <!--Level 17 -->
+                <attribute id="Boosts" type="LSString" value=""/>
+                <attribute id="Level" type="uint8" value="17"/>
+                <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                <attribute id="PassivesAdded" type="LSString" value=""/>
+                <attribute id="PassivesRemoved" type="LSString" value=""/>
+                <attribute id="ProgressionType" type="uint8" value="0"/>
+                <attribute id="Selectors" type="LSString" value=""/>
+                <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                <attribute id="UUID" type="guid" value="ed1f83d3-d0cd-4118-a4d7-820c255fd018"/>
+              </node>
+              <node id="Progression">
+                <!--Level 18 -->
+                <attribute id="Boosts" type="LSString" value=""/>
+                <attribute id="Level" type="uint8" value="18"/>
+                <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                <attribute id="PassivesAdded" type="LSString" value=""/>
+                <attribute id="PassivesRemoved" type="LSString" value=""/>
+                <attribute id="ProgressionType" type="uint8" value="0"/>
+                <attribute id="Selectors" type="LSString" value=""/>
+                <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                <attribute id="UUID" type="guid" value="83d83e75-290a-4f3f-b9b8-8b69245d0ea6"/>
+              </node>
+              <node id="Progression">
+                <!--Level 19 -->
+                <attribute id="Boosts" type="LSString" value=""/>
+                <attribute id="Level" type="uint8" value="19"/>
+                <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                <attribute id="PassivesAdded" type="LSString" value=""/>
+                <attribute id="PassivesRemoved" type="LSString" value=""/>
+                <attribute id="ProgressionType" type="uint8" value="0"/>
+                <attribute id="Selectors" type="LSString" value=""/>
+                <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                <attribute id="UUID" type="guid" value="f915616b-dab7-4701-b7e6-4dba6a555693"/>
+              </node>
+              <node id="Progression">
+                <!--Level 20 -->
+                <attribute id="Boosts" type="LSString" value=""/>
+                <attribute id="Level" type="uint8" value="20"/>
+                <attribute id="Name" type="LSString" value="757_Pugilist"/>
+                <attribute id="PassivesAdded" type="LSString" value=""/>
+                <attribute id="PassivesRemoved" type="LSString" value=""/>
+                <attribute id="ProgressionType" type="uint8" value="0"/>
+                <attribute id="Selectors" type="LSString" value=""/>
+                <attribute id="TableUUID" type="guid" value="8a1ffb44-4db3-4da7-8786-5c9ed98ef66f"/>
+                <attribute id="UUID" type="guid" value="eb58dfc4-9c07-497f-98ba-1690ce31e923"/>
+              </node>
+             
+              <!-- Subclasses-->
+                      <!-- Arena Royale-->
+                          <node id="Progression">
+                      <attribute id="Level" type="uint8" value="3"/>
+                      <attribute id="Boosts" type="LSString" value="ActionResource(757JumpCharge,1,0);ActionResource(757DisguiseCharge,1,0)"/>
+                      <attribute id="Name" type="LSString" value="Arena Royale"/>
+                      <attribute id="ProgressionType" type="uint8" value="1"/>
+                      <attribute id="PassivesAdded" type="LSString" value=""/>
+                      <attribute id="Selectors" type="LSString" value="AddSpells(9564bf67-f3bf-494f-bea6-22baa781e37c)"/>
+                      <attribute id="TableUUID" type="guid" value="b88ae09c-2359-4477-a4b2-c696e7a03636"/> 
+                      <attribute id="UUID" type="guid" value="cf89f14b-2b36-4091-8947-9c486bd2b877"/> 
+                  </node>
+          
+                          <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="Arena Royale"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(4db5fbbe-a049-4959-a452-4d21c5aff668)"/>
+                    <attribute id="TableUUID" type="guid" value="b88ae09c-2359-4477-a4b2-c696e7a03636"/>
+                    <attribute id="UUID" type="guid" value="34ffb594-370b-4ada-9e41-8eca05cd3b5a"/> 
+                  </node>
+             
+                          <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Arena Royale"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="757_RoarOfTheCrowd"/>
+                    <attribute id="TableUUID" type="guid" value="b88ae09c-2359-4477-a4b2-c696e7a03636"/>
+                    <attribute id="UUID" type="guid" value="dce214b6-8b12-4560-805c-573d5f91e5ed"/> 
+                  </node>
+
+                      <!-- Bloodhound Bruisers-->
+                          <node id="Progression">
+                      <attribute id="Level" type="uint8" value="3"/>
+                      <attribute id="Name" type="LSString" value="Bloodhound Bruisers"/>
+                      <attribute id="ProgressionType" type="uint8" value="1"/>
+                      <attribute id="PassivesAdded" type="LSString" value="757_EverVigilant"/>
+                      <attribute id="Selectors" type="LSString" value="SelectSkills(2c85190e-4809-4b44-9be9-a0e70af0fe2a,1)"/>
+                      <attribute id="TableUUID" type="guid" value="838c838b-0ec3-478f-9896-f57c87d43a74"/> 
+                      <attribute id="UUID" type="guid" value="e190c05a-e5de-4927-bb2b-0b1454ed7122"/> 
+                    </node>
+          
+                          <node id="Progression">
+                      <attribute id="Level" type="uint8" value="6"/>
+                      <attribute id="Name" type="LSString" value="Bloodhound Bruisers"/>
+                      <attribute id="ProgressionType" type="uint8" value="1"/>
+                      <attribute id="PassivesAdded" type="LSString" value=""/>
+                      <attribute id="Selectors" type="LSString" value="AddSpells(50fa13ac-3ee3-425c-b4ec-1c9cd7e5171b)"/>
+                      <attribute id="TableUUID" type="guid" value="838c838b-0ec3-478f-9896-f57c87d43a74"/>
+                      <attribute id="UUID" type="guid" value="618a3dd8-b95c-4518-8563-e3eef2b14966"/> 
+                    </node>
+          
+                          <node id="Progression">
+                      <attribute id="Level" type="uint8" value="11"/>
+                      <attribute id="Name" type="LSString" value="Bloodhound Bruisers"/>
+                      <attribute id="ProgressionType" type="uint8" value="1"/>
+                      <attribute id="PassivesAdded" type="LSString" value=""/>
+                      <attribute id="Selectors" type="LSString" value="AddSpells(70d867a3-570b-4b9e-9cf6-6fb728bcb6ee)"/>
+                      <attribute id="TableUUID" type="guid" value="838c838b-0ec3-478f-9896-f57c87d43a74"/> 
+                      <attribute id="UUID" type="guid" value="e1826f5b-2f2e-44f1-a2d2-7008d77b0c8a"/> 
+                    </node>
+
+                      <!--Piss and Vinegar-->
+              
+                          <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Piss and Vinegar"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="757_TrashTalk"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(6eb19b19-fcb4-4085-9b3e-3f77d6347436)"/>
+                    <attribute id="TableUUID" type="guid" value="6e46e00f-42d1-41be-8f0a-a929de5b47ef"/>
+                    <attribute id="UUID" type="guid" value="922a4934-6868-49dd-b4d1-de1971a61816"/> 
+                  </node>
+
+                          <node id="Progression">
+                  <attribute id="Level" type="uint8" value="6"/>                                 
+                  <attribute id="Name" type="LSString" value="Piss and Vinegar"/>
+                  <attribute id="ProgressionType" type="uint8" value="1"/>
+                  <attribute id="PassivesAdded" type="LSString" value=""/>
+                  <attribute id="Selectors" type="LSString" value="AddSpells(206db062-7150-46cf-aba3-dffee5bf294b)"/>         
+                  <attribute id="TableUUID" type="guid" value="6e46e00f-42d1-41be-8f0a-a929de5b47ef"/> 
+                  <attribute id="UUID" type="guid" value="77638a37-3219-4d0a-8d10-ab3d6fa31a4e"/> 
+                </node>
+          
+                          <node id="Progression">
+                  <attribute id="Level" type="uint8" value="11"/>
+                  <attribute id="Name" type="LSString" value="Piss and Vinegar"/>
+                  <attribute id="ProgressionType" type="uint8" value="1"/>
+                  <attribute id="PassivesAdded" type="LSString" value=""/>
+                  <attribute id="Selectors" type="LSString" value="AddSpells(9c9c3138-3de1-4d9d-ad83-e3ba00617b8c)"/>
+                  <attribute id="TableUUID" type="guid" value="6e46e00f-42d1-41be-8f0a-a929de5b47ef"/> 
+                  <attribute id="UUID" type="guid" value="3fa20ad1-5271-4baa-9d7e-2e20964e77d5"/> 
+                </node>
+
+
+                      <!-- The Squared Circle-->
+                          <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="The Squared Circle"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="757_Shove_ACboost"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(749cda91-d856-45a8-922b-d2f253a87e31)"/>
+                    <attribute id="TableUUID" type="guid" value="d84334a1-f1e6-4880-bf6a-cf57f368838a"/> 
+                    <attribute id="UUID" type="guid" value="2f346b6a-ff83-4e31-a579-f23411942050"/> 
+                  </node>
+
+                          <node id="Progression">
+                <attribute id="Level" type="uint8" value="6"/>
+                <attribute id="Name" type="LSString" value="The Squared Circle"/>
+                <attribute id="ProgressionType" type="uint8" value="1"/>
+                <attribute id="PassivesAdded" type="LSString" value="757_MuscleMass"/>
+               
+                <attribute id="TableUUID" type="guid" value="d84334a1-f1e6-4880-bf6a-cf57f368838a"/>
+                <attribute id="UUID" type="guid" value="af810611-08c2-4fc5-ba6f-0e359246194c"/>
+              </node>
+              
+                          <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="The Squared Circle"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="757_Heavyweight"/>
+                    <attribute id="TableUUID" type="guid" value="d84334a1-f1e6-4880-bf6a-cf57f368838a"/> 
+                    <attribute id="UUID" type="guid" value="efd04414-5629-45ca-af46-8a18770f2217"/> 
+                  </node>
+          
+                      <!-- The Sweet Science-->
+                          <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="The Sweet Science"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="757_CrossCounter"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(c1d2e6d0-86ff-4a9d-abff-8993bd05d9bb)"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="TableUUID" type="guid" value="dc30beb0-5911-4ab9-9a01-39d1c6a05d0f"/> 
+                    <attribute id="UUID" type="guid" value="cb20d20f-bb36-4e63-af45-da8728f4e28c"/> 
+                  </node>
+                          <node id="Progression">
+                      <attribute id="Level" type="uint8" value="6"/>
+                      <attribute id="Name" type="LSString" value="The Sweet Science"/>
+                      <attribute id="ProgressionType" type="uint8" value="1"/>
+                      <attribute id="PassivesAdded" type="LSString" value="757_BNB_ObjectCrit;757_BNB_IgnoreResistance"/>
+                      <attribute id="TableUUID" type="guid" value="dc30beb0-5911-4ab9-9a01-39d1c6a05d0f"/>
+                      <attribute id="UUID" type="guid" value="bf4df40f-9bb5-432a-bf3f-6d1cd06ab45d"/> 
+                    </node>
+                          <node id="Progression">
+                      <attribute id="Level" type="uint8" value="11"/>
+                      <attribute id="Name" type="LSString" value="The Sweet Science"/>
+                      <attribute id="ProgressionType" type="uint8" value="1"/>
+                      <attribute id="PassivesAdded" type="LSString" value="757_PunchDrunk"/>
+                      <attribute id="TableUUID" type="guid" value="dc30beb0-5911-4ab9-9a01-39d1c6a05d0f"/>
+                      <attribute id="UUID" type="guid" value="0eecd839-97dc-4c89-84e8-c48c4a61adba"/>
+                    </node>
+
+            </children>
+        </node>
+    </region>
+</save>
+
+

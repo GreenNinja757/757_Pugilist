@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="49"/>
+    	<region id="TextureAtlasInfo">
+		<node id="root">
+			<children>
+                <node id="TextureAtlasIconSize">
+                    <attribute id="Height" type="int32" value="64"/>
+                    <attribute id="Width" type="int32" value="64"/>
+                </node>
+                <node id="TextureAtlasPath">
+                    <attribute id="Path" type="string" value="Assets/Textures/Icons/Icons_757_Pugilist.dds"/>
+                    <attribute id="UUID" type="FixedString" value="909b6bfc-eb62-43e7-aad4-a7e672c87e2a"/>
+                </node>
+                <node id="TextureAtlasTextureSize">
+                    <attribute id="Height" type="int32" value="320"/>
+                    <attribute id="Width" type="int32" value="320"/>
+                </node>
+            </children>
+        </node>
+    </region>
+	<region id="IconUVList"> 
+        <node id="root">
+            <children>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="757_TrashTalk"/> 
+                    <attribute id="U1" type="float" value="0.0"/> 
+                    <attribute id="U2" type="float" value="0.2"/> 
+                    <attribute id="V1" type="float" value="0.0"/> 
+                    <attribute id="V2" type="float" value="0.2"/> 
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="757_StingLikeABee"/> 
+                    <attribute id="U1" type="float" value="0.2"/> 
+                    <attribute id="U2" type="float" value="0.4"/> 
+                    <attribute id="V1" type="float" value="0.0"/> 
+                    <attribute id="V2" type="float" value="0.2"/> 
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="757_StreetSmarts"/> 
+                    <attribute id="U1" type="float" value="0.4"/> 
+                    <attribute id="U2" type="float" value="0.6"/> 
+                    <attribute id="V1" type="float" value="0.0"/> 
+                    <attribute id="V2" type="float" value="0.2"/> 
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="757_ShakeItOff"/> 
+                    <attribute id="U1" type="float" value="0.6"/> 
+                    <attribute id="U2" type="float" value="0.8"/> 
+                    <attribute id="V1" type="float" value="0.0"/> 
+                    <attribute id="V2" type="float" value="0.2"/> 
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="757_SchoolOfHardKnocks"/> 
+                    <attribute id="U1" type="float" value="0.8"/> 
+                    <attribute id="U2" type="float" value="1"/> 
+                    <attribute id="V1" type="float" value="0.0"/> 
+                    <attribute id="V2" type="float" value="0.2"/> 
+                </node>
+
+              <!--Done-->
+              <node id="IconUV">
+                <attribute id="MapKey" type="FixedString" value="757_RoarOfTheCrowd"/>
+                <attribute id="U1" type="float" value="0.0"/>
+                <attribute id="U2" type="float" value="0.2"/>
+                <attribute id="V1" type="float" value="0.2"/>
+                <attribute id="V2" type="float" value="0.4"/>
+              </node>
+              <node id="IconUV">
+                <attribute id="MapKey" type="FixedString" value="757_BareKnuckle"/>
+                <attribute id="U1" type="float" value="0.2"/>
+                <attribute id="U2" type="float" value="0.4"/>
+                <attribute id="V1" type="float" value="0.2"/>
+                <attribute id="V2" type="float" value="0.4"/>
+              </node>
+              <node id="IconUV">
+                <attribute id="MapKey" type="FixedString" value="757_BloodiedButUnbowed"/>
+                <attribute id="U1" type="float" value="0.4"/>
+                <attribute id="U2" type="float" value="0.6"/>
+                <attribute id="V1" type="float" value="0.2"/>
+                <attribute id="V2" type="float" value="0.4"/>
+              </node>
+              <node id="IconUV">
+                <attribute id="MapKey" type="FixedString" value="757_CrossCounter"/>
+                <attribute id="U1" type="float" value="0.6"/>
+                <attribute id="U2" type="float" value="0.8"/>
+                <attribute id="V1" type="float" value="0.2"/>
+                <attribute id="V2" type="float" value="0.4"/>
+              </node>
+              <node id="IconUV">
+                <attribute id="MapKey" type="FixedString" value="757_DigDeep"/>
+                <attribute id="U1" type="float" value="0.8"/>
+                <attribute id="U2" type="float" value="1"/>
+                <attribute id="V1" type="float" value="0.2"/>
+                <attribute id="V2" type="float" value="0.4"/>
+              </node>
+              <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="757_Discombobulate"/> 
+                    <attribute id="U1" type="float" value="0.0"/> 
+                    <attribute id="U2" type="float" value="0.2"/> 
+                    <attribute id="V1" type="float" value="0.4"/> 
+                    <attribute id="V2" type="float" value="0.6"/> 
+                </node>
+              <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="757_DownButNotOut"/> 
+                    <attribute id="U1" type="float" value="0.2"/> 
+                    <attribute id="U2" type="float" value="0.4"/> 
+                    <attribute id="V1" type="float" value="0.4"/> 
+                    <attribute id="V2" type="float" value="0.6"/> 
+                </node>
+              <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="757_FROMTHETOPROPES"/> 
+                    <attribute id="U1" type="float" value="0.4"/> 
+                    <attribute id="U2" type="float" value="0.6"/> 
+                    <attribute id="V1" type="float" value="0.4"/> 
+                    <attribute id="V2" type="float" value="0.6"/> 
+                </node>
+              <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="757_GiantSwing"/> 
+                    <attribute id="U1" type="float" value="0.6"/> 
+                    <attribute id="U2" type="float" value="0.8"/> 
+                    <attribute id="V1" type="float" value="0.4"/> 
+                    <attribute id="V2" type="float" value="0.6"/> 
+                </node>
+              <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="757_Haymaker"/> 
+                    <attribute id="U1" type="float" value="0.8"/> 
+                    <attribute id="U2" type="float" value="1"/> 
+                    <attribute id="V1" type="float" value="0.4"/> 
+                    <attribute id="V2" type="float" value="0.6"/> 
+                </node>
+              <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="757_Heavyweight"/> 
+                    <attribute id="U1" type="float" value="0.0"/> 
+                    <attribute id="U2" type="float" value="0.2"/> 
+                    <attribute id="V1" type="float" value="0.6"/> 
+                    <attribute id="V2" type="float" value="0.8"/> 
+                </node>
+              <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="757_IronChinIcon"/> 
+                    <attribute id="U1" type="float" value="0.2"/> 
+                    <attribute id="U2" type="float" value="0.4"/> 
+                    <attribute id="V1" type="float" value="0.6"/> 
+                    <attribute id="V2" type="float" value="0.8"/> 
+                </node>
+              <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="757_PocketSand"/> 
+                    <attribute id="U1" type="float" value="0.4"/> 
+                    <attribute id="U2" type="float" value="0.6"/> 
+                    <attribute id="V1" type="float" value="0.6"/> 
+                    <attribute id="V2" type="float" value="0.8"/> 
+                </node>
+              <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="757_LowBlow"/> 
+                    <attribute id="U1" type="float" value="0.6"/> 
+                    <attribute id="U2" type="float" value="0.8"/> 
+                    <attribute id="V1" type="float" value="0.6"/> 
+                    <attribute id="V2" type="float" value="0.8"/> 
+                </node>
+              <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="757_OldOneTwo"/> 
+                    <attribute id="U1" type="float" value="0.8"/> 
+                    <attribute id="U2" type="float" value="1"/> 
+                    <attribute id="V1" type="float" value="0.6"/> 
+                    <attribute id="V2" type="float" value="0.8"/> 
+                </node>
+              <node id="IconUV">
+                <attribute id="MapKey" type="FixedString" value="757_MoxieFueledFists"/>
+                <attribute id="U1" type="float" value="0.0"/>
+                <attribute id="U2" type="float" value="0.2"/>
+                <attribute id="V1" type="float" value="0.8"/>
+                <attribute id="V2" type="float" value="1.0"/>
+              </node>
+              <node id="IconUV">
+                <attribute id="MapKey" type="FixedString" value="757_MuscleMass"/>
+                <attribute id="U1" type="float" value="0.2"/>
+                <attribute id="U2" type="float" value="0.4"/>
+                <attribute id="V1" type="float" value="0.8"/>
+                <attribute id="V2" type="float" value="1.0"/>
+              </node>
+              <node id="IconUV">
+                <attribute id="MapKey" type="FixedString" value="FREE1"/>
+                <attribute id="U1" type="float" value="0.4"/>
+                <attribute id="U2" type="float" value="0.6"/>
+                <attribute id="V1" type="float" value="0.8"/>
+                <attribute id="V2" type="float" value="1.0"/>
+              </node>
+              <node id="IconUV">
+                <attribute id="MapKey" type="FixedString" value="FREE2"/>
+                <attribute id="U1" type="float" value="0.6"/>
+                <attribute id="U2" type="float" value="0.8"/>
+                <attribute id="V1" type="float" value="0.8"/>
+                <attribute id="V2" type="float" value="1.0"/>
+              </node>
+              <node id="IconUV">
+                <attribute id="MapKey" type="FixedString" value="FREEFREE"/>
+                <attribute id="U1" type="float" value="0.8"/>
+                <attribute id="U2" type="float" value="1"/>
+                <attribute id="V1" type="float" value="0.8"/>
+                <attribute id="V2" type="float" value="1.0"/>
+              </node>
+			</children>
+        </node>
+    </region>				
+</save>
