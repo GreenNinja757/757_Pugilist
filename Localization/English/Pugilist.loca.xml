@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>          
+   <!--Armor-->
+  <content contentuid="h190744f8gfe22g40a2ga750gede67a531915" version="1">Pugilist Duds</content>
+  <content contentuid="h1642d490g0d00g4763ga099gc8cbbfd29f32" version="1">Well worn clothes, been through alot and still going strong.</content>
+  
+  <!--Main Class Level 1-->
+  <content contentuid="hfe6a4a9fgc578g4dbeg84e6g9b4180092094" version="1">Pugilist</content>
+  <content contentuid="h7899ad08gb965g4c73g8e51gee77bf4d6093" version="1">Pugilists are self-taught warriors that have created their own unorthodox martial art; rather than specializing in long storied techniques or mystical energy, they focus on being able to take and deliver any number of blows needed to win a fight.</content>
+  <content contentuid="hae0d4c6dg08bfg47fagabe6gc5a20e244cb3" version="1">Moxie</content>
+  <content contentuid="h11d6913agc59eg4431gba42g95f0232d7d98" version="1">Your experience laying the beatdown on others has given you a Moxie you can channel in the midst of battle. Moxie is used to fuel various Pugilist abilities.</content>
+          
+  <!--Progression Stuff   -->
+  <content contentuid="hb33527cdg634fg4479gbc32gbbbfd51cef16" version="1">Pugilists unconsciously tap into their own inner strength in the form of moxie. This is not an esoteric or mystical energy that flows through the multiverse, but the result of determination forged over a lifetime of hardship with anever-say-die attitude.</content>
+  <content contentuid="hd7af7c44g252cg418dgafffg254060505f23" version="1">More Moxie</content>
+  <content contentuid="h0e248f31g080fg4b33g9d3ag556319fabdb8" version="1">You gain another &lt;LSTag Type="ActionResource" Tooltip="757_Moxie"&gt;Moxie&lt;/LSTag&gt; to fuel your Pugilist techniques.</content>
+  
+  
+  <!--Statuses-->
+          <content contentuid="hfb0bae0age96ag4a6bg9906g01e032ee066d" version="1">Fisticuffs: Bonus Unarmed Strike</content> 
+          <content contentuid="hb108fec7g9e8eg4717g8848g835ebd28c147" version="1">You can make an unarmed attack as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; this turn.</content>
+          <content contentuid="h649d4b61g2f18g45cdgbbccg975dac2df5c0" version="1">Brace Up</content>
+          <content contentuid="hfaaac453g6a26g482fg8f77gfdbb64a6073a" version="1">Gained [1] + [2] temporary hit points.</content>
+          <content contentuid="h1798b481g59c7g4db0g8af8g37d42595423d" version="1">Bob and Weave</content>
+          <content contentuid="hcb02eec0g5b4bg4061gaebfg515a5f0bdc35" version="1">All melee attacks against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+          <!--Spells-->
+          <content contentuid="h4c8e8f23g483cg406agb24eg70517aebe79a" version="1">Bonus Unarmed Strike</content>
+          <content contentuid="hcafe6211gc6d9g4f1bgb7afga22ca3fb6f37" version="1">Make another unarmed attack as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;.</content>
+          <content contentuid="h4eab460ag84e8g494ag90c3g97460681be86" version="1">The Old One Two</content>
+          <content contentuid="hfbb8cec7g8a7dg4324gbab7g3889ea395fe0" version="1">Throw a rapid pair of blows.</content>
+          <content contentuid="hc6973825ga927g4601g9bc8gf05c29f9a95e" version="1">Brace Up</content>
+          <content contentuid="hb5d232b3gc312g4720ga355gbdcb2dd2fbbd" version="1">Brace for attacks. You gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to your Fisticuffs die ([2]) + your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; ([3]) + your Pugilist Class Level ([1]).</content>
+          <content contentuid="h42a28457g047cg451egac2dg5fc71c132f28" version="1">Bob and Weave</content>
+          <content contentuid="h89527ca4ge46ag4ba5g8528g947152c0d45b" version="1">Use a defensive movement technique. All melee attacks against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+          <!--Passives-->
+          <content contentuid="hbd17c3b0g3a46g4ac5g82afg95a3e5e4577a" version="1">Iron Chin</content>
+          <content contentuid="h169701a5g98e9g42e5gafa8g7cc7ddb36e0f" version="1">Your body is resilient as armor. While not wearing armor, your &lt;LSTag Tooltip="ArmourClass"&gt;Armor Class&lt;/LSTag&gt; is equal to 12 + your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+          <content contentuid="h7bdd98e1g64a5g4e17gb793g418cb155a537" version="1">Fisticuffs: Iron Fist</content>
+          <content contentuid="h355084feg4b28g4829g87e9g1da20a6e5144" version="1">Attacks with &lt;LSTag Type="Passive" Tooltip="757_PugilistWeapon"&gt; Pugilist Weapons &lt;/LSTag&gt; and unarmed attacks deal [1], unless their normal damage is higher. You must be wearing Light or no armor, and not wielding a shield to gain this benefit. </content>
+          <content contentuid="h62144f60g637cg4870ga207gbbcfc539b497" version="1">Fisticuffs: Bonus Unarmed Strike</content>
+          <content contentuid="he28a9d2egcf5bg454agb515g63f58a2adc09" version="1">After making an attack with a &lt;LSTag Type="Passive" Tooltip="757_PugilistWeapon"&gt;Pugilist Weapon &lt;/LSTag&gt; or while unarmed, you can make an unarmed attack as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;. You must be wearing Light or no armor, and not wielding a shield to gain this benefit.</content>
+          <content contentuid="ha358d768g2bf4g48beg999dg3cf2863ef046" version="1">Pugilist Weapons</content>
+          <content contentuid="h7fae9105g0f6cg4887gb530gb23f3b3d1ee9" version="1">Pugilist weapons are those with which the Pugilist has &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;, and do not have the &lt;LSTag Tooltip="TwoHanded"&gt;two-handed&lt;/LSTag&gt; or heavy properties.</content>
+  <!--Main Class Level 3-->
+  <content contentuid="h1a8ca122g0fb7g4954g990cgda2ffe7b45cf" version="1">Arena Royale</content>
+  <content contentuid="h34ad5efcg8fe9g4ce6g9874g354ce2a7dee7" version="1">Pugilists in the Arena Royale fight club earn their keep as equal parts performer and gladiator. Whether performing in a show or fighting it out after, pugilists in the Arena Royale care as much about the theatrics of a fight as they do its outcome.</content>
+  <content contentuid="hcd53b81cg0328g462bga366gf64d0bdcc34b" version="1">Bloodhound Bruisers</content>
+  <content contentuid="h73e67db9g413ag4f75g959dg0d6dca3e1043" version="1">Pugilists in the Bloodhound Bruisers fight club are notorious for looking for trouble and finding it every time. Members of this fight club are highly observant of character traits and physical evidence, allowing them to easily read the battlefield and their opponents.</content>
+  <content contentuid="hb279e183gc0a9g460ag9ec3gf15aae34323d" version="1">Piss And Vinegar</content>
+  <content contentuid="h9b95e686g3f24g4a0ag9f80g4cec9bedd415" version="1">Pugilists in the Piss and Vinegar fight club revel in their reputations as heels. Widely despised for their obscene curses and dirty tricks, these pugilists take pride in their ability to provoke, and fight to win at all costs.</content>
+  <content contentuid="h1892c4fdgee2bg496fg822cg4c6cd150f0f4" version="1">The Squared Circle</content>
+  <content contentuid="h0e1f6634g95ebg4dfeg9883g41ceff2d8747" version="1">Experienced in the art of hitting the floor, pugilists in The Squared Circle fight club know that being knocked down can make or break a fight. Having mastered ways to turn the tables, these pugilists make sure their opponents will be the ones looking up at the end.</content>
+  <content contentuid="hbe994df6ge7eeg4701gb470ga9844d6a9cf5" version="1">The Sweet Science</content>
+  <content contentuid="hdf2c7109gc8bbg44d3g93c6g095fb0865838" version="1">Pugilists who practice the Sweet Science hit hard, fast, and often. From Upper Class entertainment bouts, to back alley brawls where their next breath depends on a knockout, these Pugilists are more than willing to teach what their fists can do.</content>
+          <!--Passives-->
+          <content contentuid="h1f9d561fg0dabg435fgb645g72a952aad9f5" version="1">Bloodied But Unbowed</content>
+          <content contentuid="h040859e5g529dg4f25ga5c0g4e38ba42cbe4" version="1">When you take damage that reduces you to half your maximum hit points or less, you may use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to three times your pugilist level and regain all your expended Moxie. Once you use this feature, you can’t use it again until you finish a &lt;LSTag Tooltip="ShortRest"&gt;Short &lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest.&lt;/LSTag&gt;</content>
+          <!--Statuses-->
+          <content contentuid="h926f2f7eg1bf3g4d9cga3e7gd26ea341dc4f" version="1">Bloodied But Unbowed</content>
+          <content contentuid="hab1146f6g9759g43a5g9438g1472e3228750" version="1">Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and all expended Moxie.</content>
+          <!--Interrupts-->
+          <content contentuid="h1aa7550agfac5g4d25g9b56g320737f25d31" version="1">Bloodied But Unbowed</content>
+          <content contentuid="h6b12b65cg26ccg4491g94c1g77cbd6943c52" version="1">Gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; and regain all your expended Moxie.</content>
+          <content contentuid="h6de7055bg4476g4c88g8ac4g391aaf0c8800" version="1">Bloodied But Unbowed Charge</content>
+          <!--Spells-->
+          <content contentuid="h8d0d1191gc291g415cgb49ega1b414bbb6bd" version="1">Bloodied But Unbowed</content> <!--This spell is only used for animations-->
+          <content contentuid="h5467cbb2g2f7bg44dega3f2g113e18afa25a" version="1">Show em you mean bidness.</content> <!--Bidness, not Buisness-->
+  
+  <!--Main Class Level 4-->
+          <!--Spells-->
+          <content contentuid="h002609b0gdebcg442egb671gad943b874d38" version="1">Dig Deep</content>
+          <content contentuid="hcae7a9efg2d23g4d1eg9a5eg4a30aaf420a6" version="1">You discover a strength inside you that can’t be broken. You gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.</content>
+          <!--Statuses-->
+          <content contentuid="h99688e5bga79eg4b0fg9fddg504ea5621ddd" version="1">Dig Deep</content>
+          <content contentuid="hcf9cf265g64a9g4d35g8e69g267f5390dcbf" version="1">You have &lt;LSTag Tooltip="Resistant"&gt; Resistance&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.</content>
+  
+  <!--Main Class Level 5-->
+  <content contentuid="hf32e1744g08d1g41a9gba3dgd778cdcb964d" version="1">Haymaker</content>
+  <content contentuid="h4a35bb9ag8307g41a3g8cf2g4d3bf360aa28" version="1">When attacking with an unarmed attack or a &lt;LSTag Type="Passive" Tooltip="757_PugilistWeapon"&gt;Pugilist Weapon&lt;/LSTag&gt; you may swing a wild Haymaker. You have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on the attack roll, and deal the maximum result of your weapon’s damage die instead of rolling.</content>
+
+  <!--Main Class Level 6-->
+  <content contentuid="hdb45cac1g1820g4fdfg9b00g45f06b90f9bf" version="1">Moxie Fueled Fists</content>
+  <content contentuid="ha6969e4cgcc2cg4ecbgb647gc97edc30c9fa" version="1">Your unarmed attacks count as magical for the purpose of overcoming enemies' &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; and &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to non-magical damage.</content>
+
+  <!--Main Class Level 7-->
+          <!--Passives-->
+          <content contentuid="h8a488f1cg0a55g4c71g8165g1221e23adb1a" version="1">Shake It Off</content>
+          <content contentuid="h709e19aeg6d05g4f2fg9828g147c7665995f" version="1">If you are &lt;LSTag Type="Status" Tooltip="SG_Charmed"&gt;Charmed&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SG_Frightened"&gt;Frightened&lt;/LSTag&gt;, you automatically cast &lt;LSTag Type="Spell" Tooltip="757_Shout_ShakeItOff"&gt;Shake It Off&lt;/LSTag&gt; to remove the condition.</content>
+          <!--Spells-->
+          <content contentuid="h5791d46ag4c84g45f6gab85g35cf9c7f292f" version="1">Shake It Off</content>
+          <content contentuid="ha7d79b09g4831g4130gad83gba7a96d22ab2" version="1">Shake Off the &lt;LSTag Type="Status" Tooltip="SG_Charmed"&gt;Charmed&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="SG_Frightened"&gt;Frightened&lt;/LSTag&gt; condition, removing it.</content>
+ 
+  <!--Main Class Level 9-->
+          <!--Interrupt-->
+          <content contentuid="h86c0d5c9g5afdg4269gaa2eg08a8c34d1a3c" version="1">Down But Not Out</content>
+          <content contentuid="h84d63361g28c0g4a12g9a06g78e35f50e3f1" version="1">Add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to the damage of your unarmed strikes and &lt;LSTag Type="Passive" Tooltip="757_PugilistWeapon"&gt; Pugilist Weapons &lt;/LSTag&gt; for the next minute. This also applies the benefits of Bloodied But Unbowed.</content>
+          <content contentuid="h12e69acag972ag4ecbga770g364f040c14a1" version="1">Down But Not Out Charge</content>
+          <!--Passives-->
+          <content contentuid="h1e5efd3eg943eg4ef9g847ag39c0a9cf8d89" version="1">Down But Not Out</content>
+          <content contentuid="hc30b64bcga4dbg41fbg9689g6ec4df6b8c44" version="1">When you use your Bloodied But Unbowed feature, you can choose to also use this feature. If you do, you add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to the damage of your unarmed strikes and &lt;LSTag Type="Passive" Tooltip="757_PugilistWeapon"&gt; Pugilist Weapons &lt;/LSTag&gt; for the next minute. Once you use this feature, you can’t use it again until you finish a &lt;LSTag Tooltip="LongRest"&gt;Long Rest.&lt;/LSTag&gt;</content>
+          <!--Statuses-->
+          <content contentuid="hdc029b86gba8fg4423g9960g7fa9c6ded70d" version="1">Down But Not Out</content>
+          <content contentuid="hff898841g7f17g4c61g8777g5430e41f23e0" version="1">Your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; is added to the damage of your unarmed strikes and &lt;LSTag Type="Passive" Tooltip="757_PugilistWeapon"&gt; Pugilist Weapons.&lt;/LSTag&gt;</content>
+  
+  <!--Main Class Level 10-->
+          <!--Passives-->
+          <content contentuid="h209967f3gb32dg4172gbac1g2e08a797649f" version="1">Street Smarts</content>
+          <content contentuid="hdefabc01g1e7cg498fga07dg114e0342b561" version="1">Somehow, after countless time busting heads against the streets, you've connected both meanings of "Smarts". You have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Psychic damage. </content>
+          <content contentuid="h6d650b7fg1dfdg4031g904egb33db754003e" version="1">School of Hard Knocks</content>
+          <content contentuid="hc100916cg46cdg4f99gb5d7g6666668edd41" version="1">You've seen and learned how to do some terrible stuff over the years. Those things don't bother you anymore. You are &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to being &lt;LSTag Type="Status" Tooltip="SG_Stunned"&gt;Stunned&lt;/LSTag&gt;</content>
+  
+  <!--Arena Royale Subclass Level 6-->
+  <content contentuid="h2f8ebd4dg8398g4e87gbe42g50bc4cea6b50" version="1">FROM THE TOP ROPES</content>
+  <content contentuid="h3250b2d4g6985g4bb7gb63agd31a6fc1d4d2" version="1">You make a leaping jump attack on a target, on a hit they are knocked &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. Targets nearby must make a &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or also take damage.</content>
+  <!--Arena Royale Subclass Level 11-->
+  <content contentuid="hf266edfbg831ag4e20ga9ebgf6b6cce941d8" version="1">Roar of The Crowd</content>
+  <content contentuid="hedfad78dge7e4g4b9cg9af8gf5f22624d65d" version="1">You fuel the crowd, as much as they fuel you. In combat, allies within 10ft of you gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; on the start of your turn. </content>
+  <content contentuid="hbe6e1601ga993g4d95gae0eg8a6195a6b760" version="1">Roar of The Crowd</content>
+  <content contentuid="hd7db686dgeb7bg4d28g87d6gd7c6988d3a15" version="1">Allies within 10 feet of you gain &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; at the start of your turn.</content>
+  <content contentuid="h9d4218cagd2e4g4e6fgab98gedc0b8909f12" version="1">Roar of the Crowd Start</content>
+  <content contentuid="hd4d88fb2g3443g47a9g995ag502a2be7dca9" version="1">The crowd has heard combat, Roar of the Crowd is now active.</content>
+  <content contentuid="hf08119e7g990dg45e4g89efgd384cbfda17a" version="1">Part of the Crowd</content>
+  <content contentuid="hc308ca3egb1f9g48abg817egd87d2cfb2f0d" version="1">A Pugilist is putting on a show! Your excitment gives you &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to the Pugilist's &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;</content>
+  <!--Bloodhound Bruisers Subclass Level 3-->
+  <content contentuid="h4a7aaf01g9867g459fg9effg01a52744e376" version="1">Ever Vigilant</content>
+  <content contentuid="hc3d2b379g4503g4fb6g8a50gdd679bc53dfe" version="1">You have a +3 to initiative, along with &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on attack rolls against creatures that haven’t acted yet in combat.</content>
+  <!--Bloodhound Bruisers Subclass Level 6-->
+  <content contentuid="h20627036g024dg4bb8ga6a2ga39b9d67eb68" version="1">Discombobulate</content>
+  <content contentuid="ha384cf34g1748g409cgb831g9e9082f9e96c" version="1">Attack a target, potenially leaving them  &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Dazed&lt;/LSTag&gt;.</content>
+  <!--Bloodhound Bruisers Subclass Level 11-->
+  <content contentuid="h52b59783gb807g4f99g9387g43a458b25daa" version="1">Scrap Like A Sleuth</content>
+  <content contentuid="hc6ecfce7ge224g4fd3ga5d8g438f9d25c6f9" version="1">The target has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; to hit the source. The source has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; to hit the target. </content>
+  <content contentuid="h559c6c29g3637g4c7cg90f2g74c86f5d12d8" version="1">Scrap Like A Sleuth</content>
+  <content contentuid="h989c0c06gba57g4422g9071g1ff72af4c775" version="1">Hone in on the idiosyncrasies and bad habits of an enemy. You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on weapon attacks against the target and the target has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; to hit you.</content>
+
+
+  <!--Piss and Vinegar Subclass Level 3-->
+  <content contentuid="h6a6bb361gc528g4001g924ag9fada106138f" version="1">Trash Talk</content>
+  <content contentuid="h7d1a1e05g8cedg490agabbagd431bec472c6" version="1">You’ve turned spewing insults into an art, you learn an enchanced version of the &lt;LSTag Type="Spell" Tooltip="Target_ViciousMockery"&gt;Vicious Mockery&lt;/LSTag&gt; cantrip, allowing you to cast it with a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt;. In addition, you can cast &lt;LSTag Type="Spell" Tooltip="Target_Bane"&gt;Bane&lt;/LSTag&gt; at first level once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+  
+  <!--Piss and Vinegar Subclass Level 6-->
+  <content contentuid="hd3d05ba4g2396g4af8g82f3g294359ededb0" version="1">Low Blow</content>
+  <content contentuid="h00acacb4geb13g465agbb39g9817056cae01" version="1">Distract a foe with a strange dance and song, then quickly hit them below the belt and sweep their feet; potenially knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. You regain 1 Moxie.</content>
+  <content contentuid="hf9deb379g089ag483fgaee9gd92822e1718c" version="1">Pocket Sand</content>
+  <content contentuid="hb361cbe2g48f4g4dceg95f7ge8c76ddce8bd" version="1">Throw your trusty pocket sand, potenially &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinding&lt;/LSTag&gt; all targets hit. You regain 1 Moxie.</content>
+  <!--Piss and Vinegar Subclass Level 11-->
+ 
+  <!--Squared Circle Subclass Level 3-->
+          <!--Spells-->
+          <content contentuid="h4992b549gd10bg4aeegbc4cg1fe50212ad1d" version="1">Giant Swing</content>
+          <content contentuid="h7c29e436gf1fdg4000gab80g13c9fb690578" version="1">Pick up an item or enemy and throw it at a target, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; and dealing additional damage.</content>
+          <!--Passives-->
+          <content contentuid="h4a2c352ageb8eg4e83g89d9g4fb009a8cfc3" version="1">Meat Shield</content>
+          <content contentuid="hc691a4b5g59e4g4dc4g81b9gafa77e6f4d3c" version="1">After you &lt;LSTag Type="Spell" Tooltip="Target_Shove"&gt;Shove&lt;/LSTag&gt; an enemy, you gain a +2 to your &lt;LSTag Tooltip="ArmourClass"&gt;Armor Class&lt;/LSTag&gt; until the start of your next turn.</content>
+          <!--Statuses-->
+          <content contentuid="h6a2b06d8gd32fg4f38gb497g247117695e1b" version="1">Meat Shield</content>
+          <content contentuid="h7fd4f92dgc586g465ega38bg004c3d1fb37e" version="1">Your &lt;LSTag Tooltip="ArmourClass"&gt;Armor Class&lt;/LSTag&gt; is increased by 2.</content>
+  <!--Squared Circle Subclass Level 6-->
+  <content contentuid="hea619c55g1855g45e1g9db7g7f612c85e854" version="1">Muscle Mass</content>
+  <content contentuid="hf3670e0cgd6adg419bga2acgecef391ca1be" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; using &lt;LSTag Tooltip="Athletics"&gt;Athletics&lt;/LSTag&gt;.</content>
+  <!--Squared Circle Subclass Level 11-->
+  <content contentuid="hdfb13b09g038bg4dc1g822dg9ced68b106e9" version="1">Heavyweight</content>
+  <content contentuid="hd4e12c5cgb3feg44eag83a6g5cf3f9a67582" version="1">You cannot be pushed against your will, and you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained.&lt;/LSTag&gt;</content>
+
+
+  <!--Sweet Science Subclass Level 3-->
+  <content contentuid="h33f11e0eg4a6bg474dg9a11gfe141f82ea27" version="1">Cross Counter Charge</content> <!--Hidden-->
+          <!--Interrupt-->
+          <content contentuid="h6f6d3181gc6abg4a71gaa3fg88d8cd7dc023" version="1">Counter</content>
+          <content contentuid="he96d1b5agc503g4d9egb223g18f85be10693" version="1">Reduce damage by 1d10 + your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; + Pugilist Level. &lt;br&gt;&lt;br&gt; If you reduce the damage to 0, you may spend 1 Moxie to &lt;LSTag Type="Spell" Tooltip="Target_Counter_757"&gt;Cross&lt;/LSTag&gt;.</content>
+          <content contentuid="h1f3dedc0gaf0dg4d82g813ag239a6cad3c8f" version="1">Counter</content>
+          <content contentuid="h7e4c404dg076dg461dg98efg1f8110be286e" version="1">Dodge the brunt of a melee attack and retaliate with a &lt;LSTag Type="Spell" Tooltip="Target_Counter_757"&gt;Cross&lt;/LSTag&gt;.</content>
+          <!--Passive-->
+          <content contentuid="h2bb0a9d5g8fabg4735ga736gb3524159cf61" version="1">Cross Counter</content>
+          <content contentuid="h83d7af7bg75b6g4b25ga222gbe85dcf4f9a1" version="1">You may use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to reduce the damage from a melee weapon attack by 1d10 + your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; + Pugilist Level. &lt;br&gt;&lt;br&gt; If you reduce the damage to 0, you may spend 1 Moxie to &lt;LSTag Type="Spell" Tooltip="Target_Counter_757"&gt;Counter&lt;/LSTag&gt;.</content>
+          <!--Spells-->
+          <content contentuid="haefa899dgfd6cg457fg9773g5d81a81e608a" version="1">Cross</content>
+          <content contentuid="hf1f36481g3303g4815gb88dg12c953b8be05" version="1">Throw a punch while your oppenent is committed to an attack.</content>
+          <content contentuid="h4a518218g9b97g4293g88e1g7ec88cbdcc81" version="1">Sting Like a Bee</content>
+          <content contentuid="h7bb33fcag5f79g4620g9734gce552091080d" version="1">Deliver a brutal uppercut, dealing Piercing damage, and making the target &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt;.</content>
+  <!--Sweet Science Subclass Level 6-->
+  <content contentuid="h28364ecdgbeb1g4523g9bf9g6beb5ef6eee2" version="1">Bare Knucle Boxer - Open Up</content>
+  <content contentuid="hd922f530g8b94g4b4bga16bgccd8c6c9c5b7" version="1">Some people think they can take anything, you know you can prove em wrong. Your unarmed attacks ignore Bludgeoning &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt;.</content>
+  <content contentuid="h375ed015g297ag41a2g809fg14cfa7f9582c" version="1">Bare Knuckle Boxer- Knock Knock</content>
+  <content contentuid="h1fa2b218g9a27g419fga6a9g09636e5154e7" version="1">So many things that you can't use as a weapon just get in the way of a fight, lucky for you they're real easy to hit.Your unarmed attacks are automatically &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hits&lt;/LSTag&gt; on objects.</content>
+  <!--Sweet Science Subclass Level 11-->
+  <content contentuid="h17ab3378g3c2bg4d92ga5fdg912cb43376ae" version="1">Punch Drunk</content>
+  <content contentuid="h061323f6g9c04g4bffg87cdge6eba199fa61" version="1">Your unarmed attacks and &lt;LSTag Type="Passive" Tooltip="757_PugilistWeapon"&gt; Pugilist Weapons &lt;/LSTag&gt; hit hard enough to send your target &lt;LSTag Type="Status" Tooltip="MAG_ATTACK_DEBUFF"&gt;Reeling&lt;/LSTag&gt; for 1 turn.</content>
+
+
+
+ 
+
+  <content contentuid="h2200ae54gf3cdg4657ga6a1g0d24ebf86dbe" version="1">Pugilst Spells</content>
+  <content contentuid="h19727f3fgde55g4b00ga001g874c2cb7a1fc" version="1">Every Monk Spell Lmao</content>
+  <!--        
+ 
+
+  &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;
+  &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; 
+  &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; 
+  &lt;LSTag Tooltip="ArmourClass"&gt;Armor Class&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;,
+  &lt;LSTag Type="Damage"&gt;[1]&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="HighGroundRules"&gt;
+  &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;
+  &lt;LSTag Type="Image" Info="TutorialIllithidPowersMenu"/&gt;
+  &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt
+  &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="MovementSpeed"&gt;Movement Speed&lt;/LSTag&gt;: 
+  &lt;LSTag Type="Passive" Tooltip="ElementalAffinity_Resistance_Check"&gt;Elemental Affinity&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="RangedWeaponAttack"&gt;ranged weapon attacks&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; 
+  &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt;.
+  &lt;LSTag Type="Spell" Tooltip="Target_Web_Spider_Summon"&gt;Webs&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Modifier&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt;
+  &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt;
+   -->
+
+</contentList>
